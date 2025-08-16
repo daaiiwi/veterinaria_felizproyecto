@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f9f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #5ec2c2;
+    padding: 15px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+}
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Promociones */
+#promociones {
+    background-color: #dff7f7;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.promo-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.promo-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Servicios */
+#servicios ul {
+    list-style: none;
+    padding: 0;
+}
+#servicios li {
+    background: #b2eaea;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+/* Nosotros */
+#nosotros img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Contacto */
+#contacto iframe {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #5ec2c2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}te;
+}
